@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+body {
+    align-items: center;
+    background-image: url(/img/sorocaba.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 100px;
+    background-image: url(/img/1200px-BandeiraSorocaba.svg.png);
+    background-position: center;
+    background-size: 8%;
+    background-repeat: no-repeat;
+    background-position-x: 560px;
+    color: hsla(224, 87%, 47%, 0.829);
+    padding: 10px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    color: hsla(224, 87%, 47%, 0.829);
+    background-color: hsla(219, 81%, 32%, 0.459);
+    border-radius: 10px;
+    width:30%;margin:auto;
+}
+
+p {
+    text-align:center;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    background-color: hsla(219, 81%, 32%, 0.459);
+    color:blanchedalmond;
+    border-radius: 10px;
+    
+    
+}
+ol {
+    counter-reset: count;
+  }
+  
+ol li {
+    list-style-type: none;
+    position: relative;
+  }
+  
+ol li:before {
+    counter-increment: count;
+    content: counter(count)" ";
+    margin-right: 0.5em;
+    display:inline-block;
+    padding:0 5px;
+    border-radius:50%;
+    color:#fff;   
+  }
+
+li {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    background-color: hsla(219, 81%, 32%, 0.459);
+    margin-left: 25%;
+    margin-right: 20%;
+    border-radius: 10px;
+    color:blanchedalmond;
+}
+
+iframe {
+    padding: 0 15%;
+}
+
+.Texto {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    color:#fff;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+    line-height: 30px;
+    height: 30px;
+}
+
+.circle-icons {
+  padding: 10px; 
+  font-size: 18px; 
+  width: 20px; 
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; 
+  border-radius: 50%;  
+  background: hsla(224, 87%, 47%, 0.829);
+  color: #fff; 
+}
+.circle-icons:hover {
+    background: hsla(224, 87%, 47%, 0.829);
+    color: #fff;  
+    opacity: 0.7;   
+}
+
+.botao {
+    width:10%;margin:auto;
+}
+  
